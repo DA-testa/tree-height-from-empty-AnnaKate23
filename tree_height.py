@@ -46,8 +46,8 @@ def main():
             print("can't use 'a'")
             return
         with open(f"./test/{file}", "r") as filee:
-        n = int(filee.readLine())
-        parents = numpy.asarray(list(map(int,filee.readLine().split())))
+            n = int(filee.readLine())
+            parents = numpy.asarray(list(map(int,filee.readLine().split())))
 
     else:
         print("Invalid input")
