@@ -27,8 +27,8 @@ def get_height(node, parents, list):
     if parents[node] == -1:
         list[node] = 1
     else:
-        list[node] = get_height(parents[node], parents, list) + 1
-    return list[node]
+        return get_height(parents[node], parents, list) + 1
+    
     
 
         
